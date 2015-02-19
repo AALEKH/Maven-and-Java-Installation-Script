@@ -24,7 +24,7 @@ sudo chmod a+x /usr/bin/java
 sudo chmod a+x /usr/bin/javac 
 sudo chmod a+x /usr/bin/javaws
 sudo chown -R root:root /usr/lib/jvm/jdk1.7.0_65
-sudo apt-get install maven
+sudo apt-get install maven -y
 
 rm jdk-7-linux-x64.tar.gz
 rm -f equip_base.sh 
